@@ -20,7 +20,6 @@ class MainPage extends StatelessWidget {
               'Welcome, ${user.email}',
               style: TextStyle(fontSize: 24),
             ),
-            // Customize the main page as needed
           ],
         ),
       ),
