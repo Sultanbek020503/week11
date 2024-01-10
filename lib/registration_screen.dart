@@ -53,7 +53,9 @@ class RegistrationScreen extends StatelessWidget {
       );
 
       print('User registered: ${userCredential.user?.email}');
-
+      //already added users:
+      //2110193@gmail.com            password: sultanbek
+      //mobilelab@gmail.com          password: lab12345678
 
       //Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => MainPage(userCredential.user!)));
     } catch (e) {
